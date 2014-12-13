@@ -10,7 +10,7 @@ public class FuncionesString {
         //Contar cuantos caracteres 'o' hay      
         System.out.println(contarCaracteres(cadena, 'a')+contarCaracteres(cadena, 'A')); //hace el recorrido para mayusculas y minisculas
         System.out.println("letras minusculas \t"+contarCaracteres(cadena, 'a'));
-        System.out.println("letras mayusculas\t"+contarCaracteres(cadena, 'A'));
+        System.out.println("letras mayusculas................\t"+contarCaracteres(cadena, 'A'));
         System.out.println("Total de los valores\t"+(contarCaracteres(cadena, 'a')+contarCaracteres(cadena, 'A')));
         System.out.println("Total valores Mayusculas y MInusculas en una sola linea\t"+(contarCaracteresMayusculasoMinusculas(cadena, 'a')));
     }
